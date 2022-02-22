@@ -13,6 +13,16 @@
 		329B3C2027C4EDF400294547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329B3C1E27C4EDF400294547 /* Main.storyboard */; };
 		329B3C2227C4EDF500294547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329B3C2127C4EDF500294547 /* Assets.xcassets */; };
 		329B3C2527C4EDF500294547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329B3C2327C4EDF500294547 /* LaunchScreen.storyboard */; };
+		329B3C2E27C4FA6700294547 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 329B3C2D27C4FA6700294547 /* SnapKit */; };
+		329B3C3527C5001800294547 /* MultipleControlContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C3427C5001800294547 /* MultipleControlContainer.swift */; };
+		329B3C3B27C5040500294547 /* ControlContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C3A27C5040500294547 /* ControlContainer.swift */; };
+		329B3C3D27C50C9900294547 /* UIControl+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C3C27C50C9900294547 /* UIControl+Command.swift */; };
+		329B3C3F27C5288400294547 /* VerticallyAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C3E27C5288400294547 /* VerticallyAlignedLabel.swift */; };
+		329B3C4127C5413700294547 /* ControlCenterButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C4027C5413700294547 /* ControlCenterButtonItem.swift */; };
+		329B3C4427C58B7A00294547 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C4327C58B7A00294547 /* Typealiases.swift */; };
+		329B3C4827C58BD000294547 /* ControlCenterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C4727C58BD000294547 /* ControlCenterItem.swift */; };
+		329B3C4A27C58F7000294547 /* ResponderProxyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C4927C58F7000294547 /* ResponderProxyButton.swift */; };
+		329B3C4C27C590F100294547 /* ViewController+Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329B3C4B27C590F100294547 /* ViewController+Mocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,15 @@
 		329B3C2127C4EDF500294547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329B3C2427C4EDF500294547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329B3C2627C4EDF500294547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329B3C3427C5001800294547 /* MultipleControlContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleControlContainer.swift; sourceTree = "<group>"; };
+		329B3C3A27C5040500294547 /* ControlContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlContainer.swift; sourceTree = "<group>"; };
+		329B3C3C27C50C9900294547 /* UIControl+Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Command.swift"; sourceTree = "<group>"; };
+		329B3C3E27C5288400294547 /* VerticallyAlignedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticallyAlignedLabel.swift; sourceTree = "<group>"; };
+		329B3C4027C5413700294547 /* ControlCenterButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterButtonItem.swift; sourceTree = "<group>"; };
+		329B3C4327C58B7A00294547 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		329B3C4727C58BD000294547 /* ControlCenterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterItem.swift; sourceTree = "<group>"; };
+		329B3C4927C58F7000294547 /* ResponderProxyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponderProxyButton.swift; sourceTree = "<group>"; };
+		329B3C4B27C590F100294547 /* ViewController+Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Mocks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329B3C2E27C4FA6700294547 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +76,9 @@
 		329B3C1727C4EDF400294547 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				329B3C4627C58BC000294547 /* Entities */,
+				329B3C4527C58B9200294547 /* Extensions */,
+				329B3C3327C5000100294547 /* Views */,
 				329B3C1827C4EDF400294547 /* AppDelegate.swift */,
 				329B3C1A27C4EDF400294547 /* SceneDelegate.swift */,
 				329B3C1C27C4EDF400294547 /* ViewController.swift */,
@@ -63,8 +86,38 @@
 				329B3C2127C4EDF500294547 /* Assets.xcassets */,
 				329B3C2327C4EDF500294547 /* LaunchScreen.storyboard */,
 				329B3C2627C4EDF500294547 /* Info.plist */,
+				329B3C4B27C590F100294547 /* ViewController+Mocks.swift */,
 			);
 			path = Transitions;
+			sourceTree = "<group>";
+		};
+		329B3C3327C5000100294547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				329B3C3427C5001800294547 /* MultipleControlContainer.swift */,
+				329B3C3A27C5040500294547 /* ControlContainer.swift */,
+				329B3C4027C5413700294547 /* ControlCenterButtonItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		329B3C4527C58B9200294547 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				329B3C3C27C50C9900294547 /* UIControl+Command.swift */,
+				329B3C3E27C5288400294547 /* VerticallyAlignedLabel.swift */,
+				329B3C4327C58B7A00294547 /* Typealiases.swift */,
+				329B3C4927C58F7000294547 /* ResponderProxyButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		329B3C4627C58BC000294547 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				329B3C4727C58BD000294547 /* ControlCenterItem.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +136,9 @@
 			dependencies = (
 			);
 			name = Transitions;
+			packageProductDependencies = (
+				329B3C2D27C4FA6700294547 /* SnapKit */,
+			);
 			productName = Transitions;
 			productReference = 329B3C1527C4EDF400294547 /* Transitions.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 329B3C0C27C4EDF400294547;
+			packageReferences = (
+				329B3C2C27C4FA6700294547 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 329B3C1627C4EDF400294547 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				329B3C1D27C4EDF400294547 /* ViewController.swift in Sources */,
+				329B3C4427C58B7A00294547 /* Typealiases.swift in Sources */,
+				329B3C3B27C5040500294547 /* ControlContainer.swift in Sources */,
+				329B3C3F27C5288400294547 /* VerticallyAlignedLabel.swift in Sources */,
+				329B3C4C27C590F100294547 /* ViewController+Mocks.swift in Sources */,
+				329B3C3D27C50C9900294547 /* UIControl+Command.swift in Sources */,
+				329B3C4827C58BD000294547 /* ControlCenterItem.swift in Sources */,
+				329B3C4127C5413700294547 /* ControlCenterButtonItem.swift in Sources */,
 				329B3C1927C4EDF400294547 /* AppDelegate.swift in Sources */,
 				329B3C1B27C4EDF400294547 /* SceneDelegate.swift in Sources */,
+				329B3C4A27C58F7000294547 /* ResponderProxyButton.swift in Sources */,
+				329B3C3527C5001800294547 /* MultipleControlContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +355,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Transitions/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Test App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,8 +371,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = some.company.app.Transitions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,10 +385,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Transitions/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Test App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,8 +401,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = some.company.app.Transitions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +432,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		329B3C2C27C4FA6700294547 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		329B3C2D27C4FA6700294547 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 329B3C2C27C4FA6700294547 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 329B3C0D27C4EDF400294547 /* Project object */;
 }
